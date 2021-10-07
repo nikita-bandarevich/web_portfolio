@@ -1,21 +1,27 @@
 .banner {
-  background-size: cover;
-  background-position: center;
   height: 600px;
   color: white;
   font-size: 18px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
   }
 
 .banner > .container > h1 {
-  margin: 0;
+  margin: 100px 0 0 0;
 }
 
 .banner > .container > p {
   margin-bottom: 50px;
   color: #908a76;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.reflection-image-left {
+    padding-left: 20px;
+    padding bottom: 50px;
+    padding-right: 60px;
+    padding-top: 50px;
 }
