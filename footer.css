@@ -1,0 +1,19 @@
+/*.footer {
+  background-color: rgb(50, 50, 50);
+  height: 200px;
+}*/
+
+.footer p {
+  color: rgb(100, 100, 100);
+}
+
+.footer a {
+  font-size: 30px;
+    color: #1EDD88;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #2c2b2b;
+}

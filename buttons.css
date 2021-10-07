@@ -1,0 +1,15 @@
+.btn-yours {
+  color: white;
+  background: #1EDD87;
+  border: 1px solid #1EDD87;
+  padding: 15px 25px;
+  font-weight: lighter;
+}
+
+.btn-yours:hover {
+  background: transparent;
+  color: #1EDD87;
+  border: 1px solid #1EDD87;
+  padding: 15px 25px;
+  font-weight: lighter;
+}
