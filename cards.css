@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.card > img{
+  height: 200px;
+  width: 100%;
+}
+
+.card {
+  font-size: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  align-items: center;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.card > p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
