@@ -1,13 +1,13 @@
-.banner {
+.my-banner {
   color: white;
   font-size: 18px;
   }
 
-.banner > .container > h1 {
+.my-banner > .container > h1 {
   margin: 100px 0 0 0;
 }
 
-.banner > .container > p {
+.my-banner > .container > p {
   margin-bottom: 50px;
   color: #908a76;
 }
@@ -21,4 +21,35 @@
     padding bottom: 50px;
     padding-right: 50px;
     padding-top: 50px;
+}
+
+
+.my-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.my-card {
+    border-style: solid;
+    border-color: #555555;
+    border-width: 1px;
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 0;
+}
+
+.card-content {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.my_card:hover {
+  box-shadow: 5px 5px 0 rgba(250, 46, 245, 1);
+  border-radius: 0;
+  transform: translate(-5px, -5px);
 }
