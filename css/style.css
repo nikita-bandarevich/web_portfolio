@@ -1,17 +1,11 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
-
-/* Fontawesome */
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-
 /*components*/
 @import url("components/banner.css");
 @import url("components/container.css");
 @import url("components/buttons.css");
-@import url("components/cards.css");
 @import url("components/footer.css");
 @import url("components/links.css");
 @import url("components/sidebar.css");
+@import url("components/my_cards.css");
 /* Utilities */
 body {
   margin: 0;
