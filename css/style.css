@@ -5,6 +5,7 @@
 @import url("components/footer.css");
 @import url("components/links.css");
 @import url("components/sidebar.css");
+@import url("components/blog.css");
 /* Utilities */
 body {
   margin: 0;

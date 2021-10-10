@@ -1,0 +1,16 @@
+h2 {
+	color: yellowgreen;
+}
+
+.blog-banner {
+	height: 30vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    align-content: center;
+}
+
+.banner-content {
+	color: whitesmoke;
+}
