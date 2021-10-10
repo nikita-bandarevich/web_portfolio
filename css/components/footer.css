@@ -1,15 +1,15 @@
+.my-footer {
+    align-items: center;
+    width: 200px;
+}
 
-.footer p {
+
+.my-footer p {
   color: rgb(100, 100, 100);
 }
 
-.footer a {
+.my-footer a {
   font-size: 30px;
-    color: #908a76;
+  color: #908a76;
 }
 
-.footer {
-    text-align: center;
-    padding: 60px;
-    margin: 100px;
-}
