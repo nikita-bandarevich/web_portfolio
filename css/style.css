@@ -9,12 +9,19 @@
 /* Utilities */
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;
   background-color: #070831;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 300;
 }
+
 
 h1, h2, h3, h4 {
   font-family: 'agrandir', sans-serif;
+  font-weight:  normal;
+}
+
+.p1 {
+  font-family: 'Source Serif Pro', serif;
 }
 
 a {

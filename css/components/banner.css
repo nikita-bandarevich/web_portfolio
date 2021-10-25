@@ -96,8 +96,46 @@
 
 
 
+#axis {
+border: 3px solid #73AD21;
+position: absolute;
+top: 45%;
+left: 44%;
+}
+
+#axis img {
+float: left;
+transition: all 1s ease-in;
+-webkit-transition: all 1s ease-in;
+-moz-transition: all 1s ease-in;
+-o-transition: all 1s ease-in;
+}
+
+#axis .move-left {
+transform: translateX(200px);
+-webkit-transform: translateX(200px);
+-o-transform: translateX(200px);
+-moz-transform: translateX(200px);
+}
+
+#axis .move-right {
+transform: translateX(-200px);
+-webkit-transform: translateX(-200px);
+-o-transform: translateX(-200px);
+-moz-transform: translateX(-200px);
+}
 
 
+#axis:hover .move-left, #axis:hover .move-right {
+transform: translateX(0px);
+-webkit-transform: translateX(0);
+-o-transform: translateX(0);
+-moz-transform: translateX(0);
+}
+
+p {
+font-weight:bold;
+}
 
 
 
