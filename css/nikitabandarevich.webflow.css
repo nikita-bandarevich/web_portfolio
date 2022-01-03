@@ -1135,6 +1135,56 @@ a {
   grid-template-rows: auto auto;
 }
 
+.multiple-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-10 {
+  width: 50%;
+  height: 300px;
+  background-image: url('../images/latent12.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.div-block-10._2 {
+  background-image: url('../images/nik1.jpg');
+  background-size: 150%;
+}
+
+.div-block-10._3 {
+  background-image: url('../images/latent8.png');
+}
+
+.div-block-10._4 {
+  background-image: url('../images/nik2.jpg');
+  background-position: 50% 50%;
+  background-size: 150%;
+}
+
+.div-block-10._5 {
+  background-image: url('../images/latent10.png');
+}
+
+.div-block-10._6 {
+  background-image: url('../images/nik5.JPG');
+}
+
 @media screen and (min-width: 1280px) {
   .div-block-3 {
     left: auto;
